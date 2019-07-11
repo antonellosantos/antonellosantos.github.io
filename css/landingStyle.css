@@ -1,0 +1,111 @@
+body{
+    background-color: lightcyan;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    margin-left: 33%;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 90%;
+    width: 60%;
+    right: 20%;
+    text-align: center;
+    top: 50px;
+    border-radius: 15px;
+}
+
+.picturePlacement{
+    position: absolute;    
+    display: flex;
+    background: black;
+    height: 100%;
+    width: 40%;
+    left: 0%;
+    opacity: 0.7;
+}
+
+#username{
+    position: absolute;
+    display: flex;
+    top: 35%;
+    right: 55px;    
+    width: 50%;    
+    height: 5%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#password{
+    position: absolute;
+    display: flex;
+    top: 45%;
+    right: 55px;    
+    width: 50%;    
+    height: 5%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#forgotPassword{
+    position: absolute;
+    display: flex;
+    top: 55%;
+    right: 43.8%;
+    font-size: 18px;
+}
+
+.btn {
+    position: absolute;
+    top: 60%;
+    display: block;
+    width: 30%;
+    right: 180px;
+    padding: 10px 15px;
+    border: 0;
+    background:cyan;
+    color:white;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    background: coral ;
+  }
+
+  #aboveUsername{
+    position: absolute;
+    display: flex;
+    right: 23%;
+    top: 45px;
+  }
+
+  #welcoming{
+      position: absolute;
+      display: flex;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.1cm;
+      left: 17.1%;
+      top: 50px;
+  }
+
+  #horizontal-line{
+      position: absolute;
+      display: flex;
+      width: 300px;
+      height: 1.5px;
+      background-color: black;
+      left: 17.6%;
+      top: 30%;
+  }
+
+  #spendMoney{
+    position: absolute;
+    display: flex;
+    font-size: 0.4cm;
+    left: 28%;
+    top: 33%
+  }

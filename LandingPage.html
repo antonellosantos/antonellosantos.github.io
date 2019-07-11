@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="http://minime.stephan-brumme.com/files/jquery/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+ 
+<body>
+
+<header class = "masthead">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li>
+                  <img src="Images/pngkey.com-krabby-patty-png-1905067.png" class = "valencia-salcy" alt="">
+          </li>
+          <li class="active"><a href="#" id="home"><span class="glyphicon glyphicon-home" id="home"></span> Home</a></li>
+          <li><a href="#" id="tables"><span class="glyphicon glyphicon-list"></span> Tables</a></li>
+          <li><a href="#" id="charts"><span class="glyphicon glyphicon-stats"></span> Charts</a></li>
+          <li><a href="#" id="upload"><span class="glyphicon glyphicon-upload"></span> Upload File</a></li>
+        </ul>
+  
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <form action=" " class = "form-inline" role = "search" id = "searchbar">
+                <input type="text" class = "form-control" placeholder=" Search..." >
+                <button type="submit" class = "btn btn-success" id = "subbtn"> Submit </button>   
+                  </form>
+          </li>
+            <li><a href="#" id="logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+        </ul>
+         
+      
+
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+  
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="Images/Capture.PNG" id="Capture" alt="Image" class = "img-responsive">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>      
+          </div>
+  
+          <div class="item">
+            <img src="Images/giphy.gif" id ="Krabby" alt="Image">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>      
+          </div>
+          <div class="item">
+                  <img src="Images/KrabbyCombo.jpg"  id = "Krabby" alt="Image">
+                  <div class="carousel-caption">
+                    <h3>Krusty Combo</h3>
+                    <p>Double Krabby Patty comes with Fries and drink </p>
+                  </div>      
+                </div>
+                <div class="item">
+                      <img src="Images/KrabbyDeluxe.jpg"  id = "Krabby" alt="Image">
+                      <div class="carousel-caption">
+                        <h3>Krabby Deluxe </h3>
+                        <p>Krabby Patty Deluxe comes with Large Fries and drink</p>
+                      </div>      
+                    </div>
+        </div>
+  
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  </div>
+</header>
+
+<div id="div_home">
+  <section class="bg-light page-section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Krusty Slaves</h2>
+          <h3 class="section-subheading text-muted">The Money Makers</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="Images/MrKrabs.png" alt="">
+            <h4>Mr Eugene Krabs</h4>
+            <p class="text-muted">Owner</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="Images/Bob.png" alt="">
+            <h4>Spongebob Squarepants </h4>
+            <p class="text-muted">Fry Cook</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="Images/Squidward.png" alt="">
+            <h4>Squidward Tentacles</h4>
+            <p class="text-muted">Cashier</p>
+          </div>
+        </div>
+      </div>
+      <div class="row"> 
+          <p class = "yes"> The Krusty Krab is a restaurant that sells various fast food products at extraordinarily high prices, including the popular Krabby Patty burgers</p>
+      </div>
+
+    </div>
+  </section>
+</div>
+    
+    
+<div id="div_table" style="display:none">
+
+   <h2 class="section-heading text-uppercase" id = "chartstyle">Table</h2>
+    <p class = "no_data" id = "chartstyle" >Upload a JSON File for the data visualization Mr Krabs!</p>
+            <input id = "date_picker" class = "show_data" style="display:none" type= "date">
+                <p class = "show_data" style="display:none">Choose a specific date to see how we did that day! </p>
+                <p id="customer_count"></p>
+            <table class="table table-bordered table-striped" id="table">
+                <thead>
+                    <tr>
+                        <th>ID Number</th>
+                        <th>Datetime</th>
+                        <th>Burger Type</th>
+                        <th>Species</th>
+                    </tr>
+                </thead>
+                <tbody> <tr></tr></tbody>
+            </table>
+</div>
+    
+<div id="div_chart" style="display:none">
+    <h2 class="section-heading text-uppercase" id = "chartstyle" >Charts</h2>
+    <p class = "show_data" style="display:none" id = "chartstyle">Choose the chart you wish to see Mr Krabs!:  
+        <select id="chart_select" autocomplete="off">
+            <option value="bar" selected="selected">Bar</option>
+            <option value="line">Line</option>
+            <option value="polarArea">Polar Area</option>
+            <option value="radar">Radar</option>
+            <canvas id = myChart width="300" height=" 300"></canvas>
+        </select>
+    </p>
+</div>
+    
+<div id="div_upload" style="display:none">
+    <div id = "file_cntr"><br>
+          <div class ="col-sm-6">
+            <p class="uploadfile" id="Supanjibobu"> Hello Mr Krabs! this website uses a JSON file as input for the data we have on our customers into tables and charts. Upload the JSON file to begin!</p><br>
+            <img src="Images/Glasses.png" alt="" id = "Supanjibobu">
+          </div>
+      
+            <input id="file-chooser" type="file" class="inputfile" />
+            <label for="file"> Upload a JSON File here Mr Krabs!</label>
+
+    </div>
+</div>
+    
+    <script src="JS/main.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

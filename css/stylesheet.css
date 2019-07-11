@@ -1,0 +1,228 @@
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+.valencia-salcy {
+    width: 32px;
+    height: 32px;
+    margin:10px;
+    margin-left: -15px; 
+}
+
+body {
+    height: 100%; 
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+
+
+}
+
+
+#chartstyle{
+  text-align: center;
+}
+.inputfile {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 12px 12px;
+  cursor: pointer;
+}
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+  display: inline-block;
+}
+
+#Supanjibobu {
+  float: center;
+  width: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-justify: inherit;
+}
+
+#employee {
+    align-content: center;
+    height: 250px;
+    margin-left: 50px;
+}
+
+#SpongebobHelp {
+  height: 600px;
+}
+
+.container {
+  align-content: center;
+}
+
+#Krabby:hover {
+  height: 500px;
+  opacity: 1.0;
+}
+#Krabby {
+  height: 500px;
+  opacity: 0.7;
+}
+#Capture {
+  height: 500px;
+}
+#myCarousel{
+  display: flex;
+  left: 25%;
+  padding-top: 10px;
+}
+
+.team-member {
+margin-bottom: 50px;
+text-align: center;
+}
+
+.team-member img {
+width: 225px;
+height: 225px;
+border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+margin-top: 25px;
+margin-bottom: 0;
+text-transform: none;
+}
+
+.team-member p {
+margin-top: 0;
+}
+
+.page-section {
+padding: 100px 0;
+}
+
+.page-section {
+padding: 100px 0;
+}
+
+.page-section h2.section-heading {
+font-size: 40px;
+margin-top: 0;
+margin-bottom: 15px;
+}
+
+.page-section h3.section-subheading {
+font-size: 16px;
+font-weight: 400;
+font-style: italic;
+margin-bottom: 75px;
+text-transform: none;
+}
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+  
+  header.masthead {
+    text-align: center;
+    color: white;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 53px;
+  }
+  
+  .team-member img {
+    width: 225px;
+    height: 225px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-color: black;
+    }
+    
+  .yes{
+    text-align:center;
+  }
+  .navbar-nav input[type=text] {
+    border: 1px solid #ccc;
+    text-align: left;
+    float:
+  }
+  .navbar-nav {
+    font-size: 16px;
+  }
+  #searchbar {
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .carousel-caption {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+  #table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    min-width: 400px;
+  }
+
+  #table thead tr{
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  #table th{
+    padding: 12px 15px;
+  }
+
+  #table tbody tr{
+    border-bottom: 1px solid white;
+  }
+
+  #table tbody tr:nth-of-type(even){
+   color: #FC766AFF;
+  }
+
+  #table tbody tr:nth-of-type(odd){
+   color: grey;
+  }
+  
